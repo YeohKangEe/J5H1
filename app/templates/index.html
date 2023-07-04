@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>J5H1</title>
+        
+    </head>
+    <body>
+        <center>
+            <table border="1" width="500px">
+                <tr align="center">
+                    <td colspan="2">Delicious Restaurant</td>
+                </tr>
+                <tr align="center">
+                    <td>Nuggets</td>
+                    <td><p id="nugget"></p></td>
+
+                </tr>
+                <tr align="center">
+                    <td>Burger</td>
+                    <td><p id="burger"></p></td>
+                </tr>
+                <tr align="center">
+                    <td>Coke</td>
+                    <td><p id="coke"></p></td>
+                </tr align="center">
+            </table>
+            <script>
+                const person = {
+                    NUGGET: 8.5,
+                    BURGER: 6,
+                    COKE: 2
+                };
+    
+                document.getElementById("nugget").innerHTML = "Price of Nuggets: "+ person.NUGGET;
+                document.getElementById("burger").innerHTML = "Price of Burger: "+ person.BURGER;
+                document.getElementById("coke").innerHTML = "Price of Coke: "+ person.COKE;
+               
+            </script>
+        </center>
+    </body>
+</html>
